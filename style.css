@@ -89,8 +89,12 @@ html {
 /* Intro title section */
 
 .introheader {
-    padding: 40px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    position: absolute; 
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    right: 0; 
 }
 
 header h1 {
@@ -100,16 +104,15 @@ header h1 {
     /* font-size: 105px; */
     font-size: 550%;
     text-align: center;
-    position: absolute;
-    top: 25%;
+    margin-bottom: -3%;
+    /* position: absolute; */
+    /* top: 25%;
     bottom: 0;
     left: 0;
-    right: 0;
-    margin-bottom: 10px;
+    right: 0; */
 }
 
 header h2 {
-    margin-bottom: 10px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -117,11 +120,11 @@ header h2 {
     font-size: 400%;
     text-align: center;
     padding:10px;
-    position: absolute;
-    top: 40%;
+    /* position: absolute; */
+    /* top: 40%;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0; */
 }
 
 .introtext {
