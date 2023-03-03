@@ -1,11 +1,10 @@
 /* Page Section */
 html, body {
     /* background: linear-gradient(to right, black, rgb(60, 0, 60)); */
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
 }
 
 p {
