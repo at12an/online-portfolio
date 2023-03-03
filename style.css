@@ -14,14 +14,15 @@ p {
     margin-bottom: -1%;
 }
 
+
 /* Navigation Section */
 
 .topnav {
     margin-top: 2%;
     background-color: transparent;
     overflow: hidden;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
   
 .topnav a {
