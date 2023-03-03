@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header h1 {
     color: #537FE7;
     font-family: 'Montserrat', sans-serif;
@@ -12,7 +16,7 @@ header h1 {
     top: 25%;
     bottom: 0;
     left: 0;
-    right: 15%;
+    right: 20%;
 }
 
 header h2 {
@@ -27,7 +31,7 @@ header h2 {
     position: absolute;
     top: 35%;
     bottom: 0;
-    left: 15%;
+    left: 10%;
     right: 0;
 }
 
