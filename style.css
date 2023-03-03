@@ -16,18 +16,21 @@ p {
 
 .page1 {
     height:100vh;
+    width: 100vw;
     background: linear-gradient(to right, #442a2a, #554981);
     box-sizing: border-box;
 }
 
 .page2 {
     height:100vh;
+    width: 100vw;
     background: linear-gradient(to right,#537895, #09203F);
     box-sizing: border-box;
 }
 
 .page3 {
     height:100vh;
+    width: 100vw;
     background: linear-gradient(to right,#1D2671 , #C33764);
     box-sizing: border-box;
 }
