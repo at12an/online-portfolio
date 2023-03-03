@@ -1,56 +1,20 @@
-html {
-    scroll-behavior: smooth;
-}
-
-.moveto {
-    top:0;
-}
-
-header h1 {
-    color: rgb(255, 0, 255);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 105px;
-    text-align: center;
-    /* margin-right: 20%;
-    margin-top: 15%;
-    margin-bottom: -3%; */
-    position: absolute;
-    top: 25%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-header h2 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 65px;
-    text-align: center;
-    padding:10px;
-    /* margin-left: 10%;
-    margin-bottom: -0.5%; */
-    position: absolute;
-    top: 40%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.introtext {
-    position: absolute;
-    top: 52%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
+/* Page Section */
 body {
     background: linear-gradient(to right, black, rgb(60, 0, 60));
     margin: 0;
     height: 100vh;
 }
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -1%;
+}
+
+/* Navigation Section */
 
 .topnav {
     margin-top: 2%;
@@ -85,70 +49,8 @@ body {
     font-weight: 200;
 }
 
-h3 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 45px;
-    text-align: center;
-    position: absolute;
-    top: 150%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* margin-top: 100%; */
-    /* position:absolute;
-    top: 100%;
-    bottom: 0;
-    left: 0;
-    right: 0; */
-}
-
-.projects{
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    position: absolute;
-    top: 175%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-/* .projects {
-    position: absolute;
-    top: 100%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    align-items: center; 
-} */
-   
-img {
-    margin-left: 75%;
-    max-width: 25%;
-    max-height:15%;
-    float: left;
-}
-
-p {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: -1%;
-}
-  
-.text {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    text-align: center;
-    font-size: 15px;
-    padding-left: 20px;
-    float: left;
+html {
+    scroll-behavior: smooth;
 }
 
 .hover-underline-animation {
@@ -176,5 +78,81 @@ p {
     margin-bottom: 8px;
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.moveto {
+    top:0;
+}
+
+
+/* Intro title section */
+
+header h1 {
+    color:  rgb(172, 0, 172);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 105px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    text-align: center;
+    padding:10px;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.introtext {
+    position: absolute;
+    top: 52%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Project info section */
+
+h3 {
+    color:  rgb(172, 0, 172);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+    position: absolute;
+    top: 150%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.projects{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    position: absolute;
+    top: 165%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+   
+img {
+    margin-left: 25%;
+    max-width: 100%;
+    max-height:100%;
+    float: left;
 }
    
