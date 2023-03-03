@@ -46,7 +46,7 @@ p {
 
 .topnav a.leftsplit {
     float: left;
-    color: rgb(172, 0, 172);
+    color: rgb(255, 0, 255);
     /* font-size: 40px; */
     font-size: 250%;
     font-weight: 200;
@@ -104,17 +104,17 @@ html {
 }
 
 header h1 {
-    color:  rgb(172, 0, 172);
+    color:  rgb(255, 0, 255);
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     /* font-size: 105px; */
-    font-size: 550%;
+    font-size: 700%;
     text-align: center;
     margin-bottom: -3%;
 }
 
 header h2 {
-    color: rgb(255, 255, 255);
+    color: rgb(170, 0,170);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     /* font-size: 65px; */
