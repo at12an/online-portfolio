@@ -184,7 +184,7 @@ img {
 /* Skills page */
 
 h4 {
-    color:  #ff4a83;
+    color:  #ffd2e0;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 500%;
@@ -197,6 +197,28 @@ h4 {
     position: absolute;
     left:0;
     right:0;
+}
+
+.skills p{
+    color:  #1D2671;
+    border-radius: 5px;
+    background: #ffd2e0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+    /* outline-style: solid;
+    outline-color: black;
+    outline-width: 2px; */
+    text-align: center; 
+}
+
+.skilllist {
+    margin-left: 5%;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 1px;
 }
    
 /* Bottom Socials */
