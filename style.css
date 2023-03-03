@@ -222,14 +222,23 @@ h4 {
 }
    
 /* Bottom Socials */
+.bottom {
+    background: black;
+}
 
 .navbar {
-    background-color: black;
+    padding-left: 45vw;
+    align-items: center;
+    background: linear-gradient(to right,#1D2671 , #C33764);
     /* background: linear-gradient(to right,#1D2671 , #C33764); */
-    overflow: hidden;
+    /* overflow: hidden;/ */
     position: absolute;
-    top:300%;
-    margin-left: 45%;
+    /* margin-left:50%; */
+    margin-left:0;
+    top:300vh;
+    left:0;
+    right:0;
+    text-align: center;
     /* bottom: 0 */
 }
   
