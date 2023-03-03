@@ -2,56 +2,59 @@ html {
     scroll-behavior: smooth;
 }
 
+.moveto {
+    top:0;
+}
+
 header h1 {
-    color: #537FE7;
+    color: rgb(255, 0, 255);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 75px;
+    font-weight: 600;
+    font-size: 105px;
     text-align: center;
     /* margin-right: 20%;
     margin-top: 15%;
     margin-bottom: -3%; */
-    padding:10px;
     position: absolute;
     top: 25%;
     bottom: 0;
     left: 0;
-    right: 20%;
+    right: 0;
 }
 
 header h2 {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 65px;
     text-align: center;
     padding:10px;
     /* margin-left: 10%;
     margin-bottom: -0.5%; */
     position: absolute;
-    top: 35%;
+    top: 40%;
     bottom: 0;
-    left: 10%;
+    left: 0;
     right: 0;
 }
 
 .introtext {
     position: absolute;
-    top: 47%;
+    top: 52%;
     bottom: 0;
     left: 0;
     right: 0;
 }
 
 body {
-    background-color: rgb(40, 40, 40) ;
+    background: linear-gradient(to right, black, rgb(60, 0, 60));
     margin: 0;
     height: 100vh;
 }
 
 .topnav {
     margin-top: 2%;
-    background-color: rgb(40, 40, 40);
+    background-color: transparent;
     overflow: hidden;
     margin-right: 10%;
     margin-left: 10%;
@@ -71,15 +74,15 @@ body {
 }
 
 .topnav a:hover {
-    background-color: rgb(40, 40, 40);
+    background-color: transparent;
     color: white;
 }
 
 .topnav a.leftsplit {
     float: left;
-    color: #C0EEF2;
-    font-size: 30px;
-    font-weight: 900;
+    color: rgb(172, 0, 172);
+    font-size: 40px;
+    font-weight: 200;
 }
 
 h3 {
@@ -88,15 +91,39 @@ h3 {
     font-weight: 900;
     font-size: 45px;
     text-align: center;
-    margin-top: 100%;
+    position: absolute;
+    top: 150%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* margin-top: 100%; */
+    /* position:absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0; */
 }
 
-.container {
+.projects{
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
+    position: absolute;
+    top: 175%;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
+
+/* .projects {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center; 
+} */
    
 img {
     margin-left: 75%;
