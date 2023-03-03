@@ -89,7 +89,7 @@ html {
 /* Intro title section */
 
 .introheader {
-    /* padding: 40px; */
+    padding: 40px;
     /* box-sizing: border-box; */
 }
 
@@ -154,9 +154,9 @@ h3 {
     column-gap: 10px;
     position: absolute;
     padding:10px;
-    top: 150%;
+    top: 165%;
     bottom: 0;
-    left: 0;
+    left: 25%;
     right: 0;
 }
    
