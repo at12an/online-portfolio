@@ -1,7 +1,7 @@
 /* Page Section */
 html, body {
     /* background: linear-gradient(to right, black, rgb(60, 0, 60)); */
-    /* width: 100vw; */
+    width: 100vw;
     height: 100vh;
     margin: 0px;
     padding: 0px;
@@ -181,8 +181,8 @@ h3 {
    
 img {
     margin-left: 25%;
-    max-width: 75%;
-    max-height:75%;
+    max-width: 40vw;
+    max-height:40vh;
     float: left;
 }
 
