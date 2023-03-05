@@ -1,7 +1,7 @@
 /* Page Section */
 html, body {
     /* background: linear-gradient(to right, black, rgb(60, 0, 60)); */
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     margin: 0px;
     padding: 0px;
@@ -18,21 +18,21 @@ p {
 
 .page1 {
     height:100vh;
-    width: 100vw;
+    /* width: 100vw; */
     background: linear-gradient(to right, #442a2a, #554981);
     box-sizing: border-box;
 }
 
 .page2 {
     height:100vh;
-    width: 100vw;
+    /* width: 100vw; */
     background: linear-gradient(to right,#537895, #09203F);
     box-sizing: border-box;
 }
 
 .page3 {
     height:100vh;
-    width: 100vw;
+    /* width: 100vw; */
     background: linear-gradient(to right,#1D2671 , #C33764);
     box-sizing: border-box;
 }
@@ -56,9 +56,9 @@ p {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 125%;
+    font-size: 150%;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
 
 }
 
@@ -90,7 +90,7 @@ html {
     margin-bottom: 8px;
     content: '';
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     transform: scaleX(0);
     height: 2px;
     bottom: 0;
@@ -111,7 +111,7 @@ html {
 }
 
 
-/* Intro title section */
+/* Intro page */
 .intro {
     position: absolute; 
     top: 25%;
@@ -156,7 +156,7 @@ h2 {
     margin-bottom: -4%;
 }
 
-/* Project info section */
+/* Projects page */
 
 .projects {
     position: absolute;
@@ -189,11 +189,12 @@ img {
 /* Skills page */
 
 h4 {
-    color:  #ffd2e0;
+    color:  #ff7ba5;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 500%;
     text-align: center; 
+    margin-bottom:-2%;
 }
 
 .skills {
@@ -206,12 +207,14 @@ h4 {
 
 .skills p{
     color:  #1D2671;
-    border-radius: 5px;
-    background: #ffd2e0;
+    border-radius: 25%;
+    background: #ffd2e05c;
     padding: 10px;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
+    line-height: 175px;
     font-weight: 600;
+    font-size: 700%;
     /* outline-style: solid;
     outline-color: black;
     outline-width: 2px; */
@@ -219,10 +222,10 @@ h4 {
 }
 
 .skilllist {
-    margin-left: 5%;
+    margin-left: 20%;
     display: grid;
     align-items: center; 
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20%;
     column-gap: 1px;
 }
    
