@@ -12,6 +12,11 @@ html {
     overflow-x:hidden;
 }
 
+*, html {
+
+    scroll-behavior: smooth !important;
+}
+
 .wrapper {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -123,10 +128,6 @@ section {
     top:0;
 }
 
-html {
-
-    scroll-behavior: smooth;
-}
 
 
 /* Intro page */
