@@ -1,5 +1,5 @@
 # online-portfolio
 
-Online website, self coded in html and css.
+Online portfolio, self coded in html and css.
 
 artnentertainment.com 
