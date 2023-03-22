@@ -12,7 +12,7 @@
     </head>
     <title>Andrew Tran | Computer Science Portfolio</title>
 
-    <body>
+    <body onload="move('element')">
       <!-- <script type="text/javascript" src="script.js"></script> -->
       <!-- <div class = "space"></div> -->
       <div class = "wrapper">
@@ -64,31 +64,85 @@
           <div class = "skills">
             <h4>Technical Skills</h4>
             <div class = "skilllist">
+              <div class = "element">
               <p><i class="devicon-html5-plain"></i></p>
+              </div>
+              <div class = "element">
               <p><i class="devicon-css3-plain"></i></p>
+              </div>
+              <div class = "element">
               <p><i class="devicon-javascript-plain"></i></p>
+              </div>
+              <div class = "element">
               <p><i class="devicon-java-plain"></i></p>
+              </div>
+              <div class = "element">
               <p><i class="devicon-c-plain"></i></p>
+              </div>
+              <div class = "element">
               <p><i class="devicon-csharp-plain"></i></p>
+              </div>
+              <div class = "element">
               <p><i class="devicon-postgresql-plain"></i></p>
+              </div>
+              <div class = "element">
               <p><i class="devicon-mysql-plain"></i></p>
+              </div>
+              <div class = "element">
               <p><i class="devicon-python-plain"></i></p>
+              </div>
+              <div class = "element">
               <p><i class="devicon-matlab-plain"></i></p>
+              </div>
             </div>
-            <!-- <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JAVA</li>
-              <li>PYTHON</li>
-              <li>JAVASCRIPT</li>
-              <li>C</li>
-              <li>C#</li>
-              <li>SQL</li>
-              <li>MIPS</li>
-              <li>PSQL</li>
-              <li>PGPGSQL</li>
-              <li>SQL</li>
-            </ul> -->
+            <!-- <div class = "testlist">
+              <p>a</p>
+              <p>b</p>
+              <p>c</p>
+            </div> -->
+            <!-- <div class = "testlist">
+              <ul>
+                <li class = "element">HTML</li>
+                <li class = "element">CSS</li>
+                <li class = "element">JAVA</li>
+                <li class = "element">PYTHON</li>
+                <li class = "element">JAVASCRIPT</li>
+                <li class = "element">C</li>
+                <li class = "element">C#</li>
+                <li class = "element">SQL</li>
+                <li class = "element">MIPS</li>
+                <li class = "element">PSQL</li>
+                <li class = "element">PGPGSQL</li>
+                <li class = "element">SQL</li>
+              </ul>
+            </div> -->
+            <script>
+              var chooseElement;
+
+              const move = function(element) {
+                const elements = document.querySelectorAll(".element");
+
+                elements.forEach(element => {
+                  element.addEventListener("mousedown", () => {
+                    element.style.position = "absolute"
+                    chooseElement = element
+
+                    document.onmousemove = (e) => {
+                      var x = e.pageX
+                      var y = e.pageY
+                      chooseElement.style.left = x - 70 + "px"
+                      chooseElement.style.top = y - 340 + "px"
+                    }
+                  }
+                  )
+                }
+
+                )
+                document.onmouseup = function(e){
+                  chooseElement = null;
+                }
+              }
+            </script>
             <!-- <p>HTML CSS PYTHON SQL JAVA JAVASCRIPT C C# MIPS PSQL PGPGSQL SQL</p> -->
           </div>
         </section>

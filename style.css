@@ -42,25 +42,26 @@ section {
 }
 
 .page1 {
-    background: linear-gradient(to right, #442a2a, #554981);
+    background: linear-gradient(#442a2a , #463c69);
     box-sizing: border-box;
     scroll-snap-align: start;
+    
 }
 
 .page2 {
-    background: linear-gradient(to right, #695a9e , #955d5d);
+    background: linear-gradient(#463c69, #734848);
     box-sizing: border-box;
     scroll-snap-align: start;
 }
 
 .page3 {
-    background: linear-gradient(to right,#537895, #09203F);
+    background: linear-gradient(#734848, #1c7c74 );
     box-sizing: border-box;
     scroll-snap-align: start;
 }
 
 .page4 {
-    background: linear-gradient(to right,#1D2671 , #C33764);
+    background: linear-gradient(#1c7c74,#9d8937);
     box-sizing: border-box;
     scroll-snap-align: start;
 }
@@ -68,7 +69,7 @@ section {
 
 /* Navigation Section */
 .topnav {
-    background: linear-gradient(to right, #442a2a, #554981);
+    /* background: linear-gradient(to right, #442a2a, #554981); */
     padding-right: 10%;
     height: 10%;
     padding:1;
@@ -133,7 +134,7 @@ section {
 /* Intro page */
 .intro {
     align-items: center;
-    background: linear-gradient(to right, #442a2a, #554981);
+    /* background: linear-gradient(to right, #442a2a, #554981); */
 }
 
 .introheader {
@@ -170,6 +171,7 @@ h2 {
     margin-bottom: -4%;
 }
 
+
 /* About Page */
 
 h5 {
@@ -190,7 +192,7 @@ h5 {
 
 h3 {
     padding-top:3%;
-    color:  #90cfff;
+    color:  #3cfbeb;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 600%;
@@ -216,7 +218,7 @@ img {
 
 h4 {
     padding-top: 3%;
-    color:  #ff7ba5;
+    color:  #ffde5c;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 600%;
@@ -232,9 +234,9 @@ h4 {
 }
 
 .skills p{
-    color:  #1D2671;
+    color:  #ffde5c;
     border-radius: 25%;
-    background: #ffd2e05c;
+    background: #08222076;
     width: 15vh;
     height: 15vh;
     line-height: 17vh;
@@ -243,12 +245,39 @@ h4 {
     text-align: center; 
 }
 
+/* .skills ul{
+    color:  #ffde5c;
+    border-radius: 25%;
+    background: #08222076;
+    width: 15vh;
+    height: 15vh;
+    line-height: 17vh;
+    font-weight: 700;
+    font-size: 10vh;
+    text-align: center; 
+} */
+
 .skilllist {
-    /* margin-left: 7.5%; */
-    padding-top:8%;
+    /* margin-right: 7.5%; */
+    /* padding-top:8%; */
+    /* left:0%; */
     align-items: center;
     display: grid;
-    grid-template-rows:repeat(2,15vh);
+    grid-template-columns:repeat(5,10vh);
+    grid-auto-flow: row; 
+    justify-content: space-evenly;
+    /* column-gap:1rem; */
+    /* row-gap:10px; */
+    position: relative;
+}
+
+
+
+.testlist {
+    /* padding-top:8%; */
+    align-items: center;
+    display: grid;
+    grid-template-rows:repeat(1 ,15vh);
     grid-auto-flow: column; 
     justify-content: space-evenly;
     column-gap:1rem;
@@ -266,7 +295,8 @@ h4 {
 .navbar {
     padding-left: 45vw;
     align-items: center;
-    background: linear-gradient(to right,#1D2671 , #C33764);
+    /* background: linear-gradient(to right,#1D2671 , #C33764); */
+    background: #1D2671;
     margin-left:0;
     top:300vh;
     left:0;

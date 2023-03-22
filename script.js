@@ -1,12 +1,22 @@
-var firstsec = document.getElementById('intro');
-var secondsec = document.getElementById('projects');
-var lastScrollTop = 0;
-window.onscroll = function(){
-   var st = window.pageYOffset || document.documentElement.scrollTop; 
-   if (st > lastScrollTop){
-      secondsec.scrollIntoView({behavior: "smooth"});
-   } else {
-      firstsec.scrollIntoView({behavior: "smooth"});
-   }
-   lastScrollTop = st <= 0 ? 0 : st; 
-} 
+var chooseElement;
+
+              const move = function(element) {
+                const elements = document.querySelectorAll(".testlist");
+
+                elements.forEach(element => {
+                  element.addEventListener("mousedown", () => {
+                    element.style.position = "absolute"
+                    chooseElement = element
+
+                    document.onmousemove = (e) => {
+                      var x = e.pageX
+                      var y = e.pageY
+                      chooseElement.style.left = x - 50 + "px"
+                      chooseElement.style.top = y - 50 + "px"
+                    }
+                  }
+                  )
+                }
+
+                )
+              }
