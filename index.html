@@ -30,6 +30,11 @@
         <div class = "contact_button">
           
         </div>
+
+        <div class="navbar2" id = "contact">
+          <a href="https://github.com/at12an" class="github"><i class="fa fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/hoang-tuan-tran/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
         <section class ="page1" id = "intro">
           <div class = "intro">
             <div class="introheader">
@@ -72,7 +77,15 @@
                 <img src="mobilegame.png">
               </div>
               <div class="text">
-                <p>My first major project was a mobile game called "paj.io" created through Unity, a cross-platform game engine. This was a self initiated project, worked on in conjunction with a team of artists over a month timeframe. The game scripts were coded in C# using Unity's various libraries, applying relevant design strategies and patterns. The app was tested, reviewed and deployed through the Google Play Console.</p>
+                <p>My first major project was a mobile game called "nart.io" created through Unity, a cross-platform game engine. This was a self initiated project, worked on in conjunction with a team of artists over a month timeframe. The game scripts were coded in C# using Unity's various libraries, applying relevant design strategies and patterns. The app was tested, reviewed and deployed through the Google Play Console.</p>
+              </div>
+            </div>
+            <div class="project1">
+              <div class="image">
+                <img src="mobilegame.png">
+              </div>
+              <div class="text">
+                <p>My first major project was a mobile game called "nart.io" created through Unity, a cross-platform game engine. This was a self initiated project, worked on in conjunction with a team of artists over a month timeframe. The game scripts were coded in C# using Unity's various libraries, applying relevant design strategies and patterns. The app was tested, reviewed and deployed through the Google Play Console.</p>
               </div>
             </div>
           </div>
@@ -83,33 +96,43 @@
             <div class = "skilllist">
               <div class = "element">
               <p><i class="devicon-html5-plain"></i></p>
+              <a class = "hide">HTML</a>
               </div>
               <div class = "element">
               <p><i class="devicon-css3-plain"></i></p>
+              <a class = "hide">CSS</a>
               </div>
               <div class = "element">
               <p><i class="devicon-javascript-plain"></i></p>
+              <a class = "hide">Javascript</a>
               </div>
               <div class = "element">
               <p><i class="devicon-java-plain"></i></p>
+              <a class = "hide">Java</a>
               </div>
               <div class = "element">
               <p><i class="devicon-c-plain"></i></p>
+              <a class = "hide">C</a>
               </div>
               <div class = "element">
               <p><i class="devicon-csharp-plain"></i></p>
+              <a class = "hide">C#</a>
               </div>
               <div class = "element">
               <p><i class="devicon-postgresql-plain"></i></p>
+              <a class = "hide">PostgreSQL</a>
               </div>
               <div class = "element">
               <p><i class="devicon-mysql-plain"></i></p>
+              <a class = "hide">SQL</a>
               </div>
               <div class = "element">
               <p><i class="devicon-python-plain"></i></p>
+              <a class = "hide">Python</a>
               </div>
               <div class = "element">
               <p><i class="devicon-matlab-plain"></i></p>
+              <a class = "hide">Matlab</a>
               </div>
             </div>
             <!-- <div class = "testlist">
@@ -164,10 +187,42 @@
           </div>
         </section>
         <section class="bottom">
-          <div class="navbar" id = "contact">
-            <a href="https://github.com/at12an" class="github"><i class="fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/hoang-tuan-tran/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-          </div>
+          <h3 class>Contact us</h3>
+          <div class="form-body">
+
+            <div id="form-div-id">
+        
+            <form id="form-id" class="form-class" method="post" action="contact-form-process.php">
+                
+                <div class="form-group">
+                    <label for="Name" class="label">Your name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="form-control" required>
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="Email" class="label">Your email address</label>
+                    <div class="input-group">
+                        <input type="email" id="Email" name="Email" class="form-control" required>
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="Message" class="label">Your message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <button type="submit" id="button" class="primary-block">Send Message</button>
+                </div>
+        
+            </form>
+            </div>
+        
+        </div>
         </section>
       </div>
       <!-- <script type="text/javascript" src="script.js"></script> -->
