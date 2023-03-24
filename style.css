@@ -268,11 +268,22 @@ h5 {
     height:300px;
 }
 
+.static {
+    background: white;
+}
+
+.static:hover {
+    opacity:0;
+}
 
 /* Projects page */
 
 .projects {
     top: 100vh;
+}
+
+.projects p{
+    font-size: 150%;
 }
 
 h3 {
@@ -293,10 +304,21 @@ h3 {
 }
    
 img {
-    margin-left: 25%;
     max-width: 40vw;
     max-height:40vh;
     float: left;
+}
+
+.image {
+    margin-left: 25%;
+}
+
+.text p {
+    margin-right: 20%;
+}
+
+.text2 p {
+    margin-left: 20%;
 }
 
 /* Skills page */
@@ -356,36 +378,18 @@ h4 {
 
 
 
-/* .skills ul{
-    color:  #ffde5c;
-    border-radius: 25%;
-    background: #08222076;
-    width: 15vh;
-    height: 15vh;
-    line-height: 17vh;
-    font-weight: 700;
-    font-size: 10vh;
-    text-align: center; 
-} */
-
 .skilllist {
-    /* margin-right: 7.5%; */
-    /* padding-top:8%; */
-    /* left:0%; */
     align-items: center;
     display: grid;
     grid-template-columns:repeat(5,10vh);
     grid-auto-flow: row; 
     justify-content: space-evenly;
-    /* column-gap:1rem; */
-    /* row-gap:10px; */
     position: relative;
 }
 
 
 
 .testlist {
-    /* padding-top:8%; */
     align-items: center;
     display: grid;
     grid-template-rows:repeat(1 ,15vh);

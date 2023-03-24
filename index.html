@@ -56,14 +56,26 @@
             <p>I am 20 year old student studying computer science at the University of New South Wales. </p>
             <p>I am an avid programmer who enjoys exploring the unique domains within the software engineering field, dabbling in indie game development with various programming platforms and recently learning about front-end programming in my spare time.</p>
             </div>
-            <img src="corpse.gif">
+            <img id="corpse" src="corpse.gif"/>
+            <script>
+              $(function() {
+                  $("#corpse").hover(
+                      function() {
+                          $(this).attr("src", "corpse.gif");
+                      },
+                      function() {
+                          $(this).attr("src", "nerd.jpg");
+                      }                         
+                  );                  
+              });
+            </script>
           </div>
           <div class = "background_text">
+            <img src="nerd.jpg">
             <div>
             <p>I am 20 year old student studying computer science at the University of New South Wales. </p>
             <p>I am an avid programmer who enjoys exploring the unique domains within the software engineering field, dabbling in indie game development with various programming platforms and recently learning about front-end programming in my spare time.</p>
             </div>
-            <img src="nerd.jpg">
           </div>
           
 
@@ -81,11 +93,11 @@
               </div>
             </div>
             <div class="project1">
-              <div class="image">
-                <img src="mobilegame.png">
-              </div>
-              <div class="text">
+              <div class="text2">
                 <p>My first major project was a mobile game called "nart.io" created through Unity, a cross-platform game engine. This was a self initiated project, worked on in conjunction with a team of artists over a month timeframe. The game scripts were coded in C# using Unity's various libraries, applying relevant design strategies and patterns. The app was tested, reviewed and deployed through the Google Play Console.</p>
+              </div>
+              <div class="image2">
+                <img src="mobilegame.png">
               </div>
             </div>
           </div>
