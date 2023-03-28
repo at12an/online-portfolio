@@ -12,37 +12,38 @@
     </head>
     <title>Andrew Tran | Computer Science Portfolio</title>
 
-    <body onload="move('element')">
-      <!-- <script type="text/javascript" src="script.js"></script> -->
-      <!-- <div class = "space"></div> -->
+    <!-- <body onload="move('element')"> -->
+    <body>
+
       <div class = "wrapper">
+
         <nav>
-          <div class = "space"></div>
           <div class="topnav">
-              <!-- <a class="leftsplit">Computer Science Portfolio</a> -->
               <img src="logo.png">
-              <a href="#contact" class="hover-underline-animation">Contact</a>
-              <a href="#skills" class="hover-underline-animation">Skills</a>
-              <a href="#projects" class="hover-underline-animation">Projects</a>
-              <a href="#about" class="hover-underline-animation">About</a>
+              <a href="#contacts" class="underline-hover">Contact</a>
+              <a href="#skills" class="underline-hover">Skills</a>
+              <a href="#projects" class="underline-hover">Projects</a>
+              <a href="#about" class="underline-hover">About</a>
           </div>
         </nav>
+
         <div class = "contact_button">
-          
         </div>
 
         <div class="navbar2" id = "contact">
           <a href="https://github.com/at12an" class="github"><i class="fa fa-github"></i></a>
           <a href="https://www.linkedin.com/in/hoang-tuan-tran/" class="linkedin"><i class="fa fa-linkedin"></i></a>
         </div>
+
         <section class ="page1" id = "intro">
           <div class = "intro">
             <div class="introheader">
-              <h1>Hoang Tran</h1>
-              <h2>UNSW Computer Science Undergraduate</h2>
+              <h1>ANDREW TRAN</h1>
+              <!-- <h2>UNSW Computer Science Undergraduate</h2> -->
             </div>
             <div class="introtext">
-              <p>Aspiring developer eager to enrich myself and learn about the diverse programming fields</p>  
+              <p>Computer Science Undergraduate at UNSW</p>
+              <!-- <p>Aspiring developer eager to enrich myself and learn about the diverse programming fields</p>   -->
             </div>
           <div>
         </section>
@@ -53,41 +54,27 @@
           </div>
           <div class = "background_text">
             <div>
-            <p>I am 20 year old student studying computer science at the University of New South Wales. </p>
-            <p>I am an avid programmer who enjoys exploring the unique domains within the software engineering field, dabbling in indie game development with various programming platforms and recently learning about front-end programming in my spare time.</p>
-            </div>
-            <img id="corpse" src="corpse.gif"/>
-            <script>
-              $(function() {
-                  $("#corpse").hover(
-                      function() {
-                          $(this).attr("src", "corpse.gif");
-                      },
-                      function() {
-                          $(this).attr("src", "nerd.jpg");
-                      }                         
-                  );                  
-              });
-            </script>
+            <p>I am a 20 year old student studying computer science at the University of New South Wales. </p>
+            <p>I am currently looking for a fulltime internship, in order to gain more experience and knowledge about the software engineering industry.</p>
+            <p>I am an avid programmer who enjoys exploring the unique domains within the software engineering field: dabbling in indie game development with various programming platforms and recently learning about front-end programming in my spare time.</p>
+            <p>Fishing is one of my recreational hobbies which I do whenever I have time. Fun fact actually: my biggest catch was my first ever catch - a dusky flathead</p> 
           </div>
-          <div class = "background_text">
-            <img src="nerd.jpg">
+            <img id="catch" src="catch.png"/>
+          </div>
+          <!-- <div class = "background_text">
+            <img src="catch.PNG">
             <div>
-            <p>I am 20 year old student studying computer science at the University of New South Wales. </p>
-            <p>I am an avid programmer who enjoys exploring the unique domains within the software engineering field, dabbling in indie game development with various programming platforms and recently learning about front-end programming in my spare time.</p>
+              <p>I am looking for a fulltime internship, in order to become more experience and knowledgable about the software engineering industry.</p>
+              <p>Fishing is one of my recreational hobbies which I do whenever I have time. Fun fact actually: my biggest catch was my first ever catch - dusky flathead</p>
             </div>
-          </div>
-          
-
+          </div> -->
         </section>
 
         <section class="page3" id = "projects">
           <div class = "projects">
             <h3>My Projects</h3>
             <div class="project1">
-              <div class="image">
                 <img src="mobilegame.png">
-              </div>
               <div class="text">
                 <p>My first major project was a mobile game called "nart.io" created through Unity, a cross-platform game engine. This was a self initiated project, worked on in conjunction with a team of artists over a month timeframe. The game scripts were coded in C# using Unity's various libraries, applying relevant design strategies and patterns. The app was tested, reviewed and deployed through the Google Play Console.</p>
               </div>
@@ -102,6 +89,7 @@
             </div>
           </div>
         </section>
+
         <section class="page4" id = "skills">
           <div class = "skills">
             <h4>Technical Skills</h4>
@@ -168,7 +156,7 @@
                 <li class = "element">SQL</li>
               </ul>
             </div> -->
-            <script>
+            <!-- <script>
               var chooseElement;
 
               const move = function(element) {
@@ -194,51 +182,39 @@
                   chooseElement = null;
                 }
               }
-            </script>
+            </script> -->
             <!-- <p>HTML CSS PYTHON SQL JAVA JAVASCRIPT C C# MIPS PSQL PGPGSQL SQL</p> -->
           </div>
         </section>
-        <section class="bottom">
+        <section class="page5" id="contacts">
           <h3 class>Contact Me</h3>
           <div class="form-body">
 
-            <div id="form-div-id">
         
             <form id="form-id" class="form-class" method="post" action="https://formsubmit.co/ahttran19@gmail.com">
                 
-                <div class="form-group">
-                    <label for="Name" class="label">Your name</label>
-                    <div class="fcf-input-group">
-                        <input type="text" id="Name" name="Name" class="form-control" required>
-                    </div>
-                </div>
-        
-                <div class="form-group">
-                    <label for="Email" class="label">Your email address</label>
-                    <div class="input-group">
-                        <input type="email" id="Email" name="Email" class="form-control" required>
-                    </div>
-                </div>
-        
-                <div class="form-group">
-                    <label for="Message" class="label">Your message</label>
-                    <div class="fcf-input-group">
-                        <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
-                    </div>
-                </div>
-        
-                <div class="form-group">
-                    <button type="submit" id="button" class="primary-block">Send Message</button>
-                </div>
-        
+              <div class="form-group">
+                <label class="label">Your name</label>
+                <input id="Name" name="Name" class="form-control" required>
+              </div>
+      
+              <div class="form-group">
+                <label class="label">Your email address</label>
+                <input type="email" id="Email" name="Email" class="form-control" required>
+              </div>
+      
+              <div class="form-group">
+                <label class="label">Your message</label>
+                <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
+              </div>
+      
+              <div class="form-group">
+                <button type="submit" class="sbutton">Send Message</button>
+              </div>
+
             </form>
-            </div>
-        
-        </div>
+          </div>
         </section>
       </div>
-      <!-- <script type="text/javascript" src="script.js"></script> -->
-      <!-- <script type="text/javascript" src="script.js"></script> -->
-        
-
     </body>
+</html>
