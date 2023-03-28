@@ -50,14 +50,14 @@
 
         <section class="page2" id = "about">
           <div class = "about">
-            <h5>About Me</h5>
+            <h5>BACKGROUND</h5>
           </div>
           <div class = "background_text">
-            <div>
-            <p>I am a 20 year old student studying computer science at the University of New South Wales. </p>
-            <p>I am currently looking for a fulltime internship, in order to gain more experience and knowledge about the software engineering industry.</p>
-            <p>I am an avid programmer who enjoys exploring the unique domains within the software engineering field: dabbling in indie game development with various programming platforms and recently learning about front-end programming in my spare time.</p>
-            <p>Fishing is one of my recreational hobbies which I do whenever I have time. Fun fact actually: my biggest catch was my first ever catch - a dusky flathead</p> 
+            <div> 
+            <p class = "big">I am a 20 year old penultimate student studying computer science at the University of New South Wales. I am currently looking for a fulltime internship, in order to learn more about the software engineering industry.</p>
+            <!-- <p class = "big">I am currently looking for a fulltime internship, in order to gain more experience and knowledge about the software engineering industry.</p> -->
+            <p class = "smol">I am an avid programmer who enjoys exploring the unique domains within the software engineering field: dabbling in indie game development with various programming platforms and recently learning about front-end programming in my spare time.</p>
+            <p class = "smol">Fishing is one of my recreational hobbies which I do whenever I have time. Fun fact: my biggest catch was my first ever catch - a dusky flathead</p> 
           </div>
             <img id="catch" src="catch.png"/>
           </div>
@@ -71,8 +71,8 @@
         </section>
 
         <section class="page3" id = "projects">
+          <h3>PROJECTS</h3>
           <div class = "projects">
-            <h3>My Projects</h3>
             <div class="project1">
                 <img src="mobilegame.png">
               <div class="text">
@@ -92,7 +92,7 @@
 
         <section class="page4" id = "skills">
           <div class = "skills">
-            <h4>Technical Skills</h4>
+            <h4>TECHNICAL SKILLS</h4>
             <div class = "skilllist">
               <div class = "element">
               <p><i class="devicon-html5-plain"></i></p>
@@ -135,57 +135,9 @@
               <a class = "hide">Matlab</a>
               </div>
             </div>
-            <!-- <div class = "testlist">
-              <p>a</p>
-              <p>b</p>
-              <p>c</p>
-            </div> -->
-            <!-- <div class = "testlist">
-              <ul>
-                <li class = "element">HTML</li>
-                <li class = "element">CSS</li>
-                <li class = "element">JAVA</li>
-                <li class = "element">PYTHON</li>
-                <li class = "element">JAVASCRIPT</li>
-                <li class = "element">C</li>
-                <li class = "element">C#</li>
-                <li class = "element">SQL</li>
-                <li class = "element">MIPS</li>
-                <li class = "element">PSQL</li>
-                <li class = "element">PGPGSQL</li>
-                <li class = "element">SQL</li>
-              </ul>
-            </div> -->
-            <!-- <script>
-              var chooseElement;
-
-              const move = function(element) {
-                const elements = document.querySelectorAll(".element");
-
-                elements.forEach(element => {
-                  element.addEventListener("mousedown", () => {
-                    element.style.position = "absolute"
-                    chooseElement = element
-
-                    document.onmousemove = (e) => {
-                      var x = e.pageX
-                      var y = e.pageY
-                      chooseElement.style.left = x - 70 + "px"
-                      chooseElement.style.top = y - 340 + "px"
-                    }
-                  }
-                  )
-                }
-
-                )
-                document.onmouseup = function(e){
-                  chooseElement = null;
-                }
-              }
-            </script> -->
-            <!-- <p>HTML CSS PYTHON SQL JAVA JAVASCRIPT C C# MIPS PSQL PGPGSQL SQL</p> -->
           </div>
         </section>
+
         <section class="page5" id="contacts">
           <h3 class>Contact Me</h3>
           <div class="form-body">
@@ -194,17 +146,17 @@
             <form id="form-id" class="form-class" method="post" action="https://formsubmit.co/ahttran19@gmail.com">
                 
               <div class="form-group">
-                <label class="label">Your name</label>
+                <label class="label">Name:</label>
                 <input id="Name" name="Name" class="form-control" required>
               </div>
       
               <div class="form-group">
-                <label class="label">Your email address</label>
+                <label class="label">Email:</label>
                 <input type="email" id="Email" name="Email" class="form-control" required>
               </div>
       
               <div class="form-group">
-                <label class="label">Your message</label>
+                <label class="label">Message:</label>
                 <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
               </div>
       
@@ -215,6 +167,7 @@
             </form>
           </div>
         </section>
+
       </div>
     </body>
 </html>
