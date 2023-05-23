@@ -32,7 +32,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
     margin-bottom: -1%;
 }
 
@@ -92,7 +92,7 @@ section {
     text-align: center;
     padding: 30px;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 2vw;
 }
   
 .navbar2 a:hover {
@@ -128,14 +128,12 @@ section {
     float: right;
     color: rgb(255, 255, 255);
     text-align: center;
-    /* padding:5vh 1vh;
-     */
     padding-top: 5vh;
     padding-left:1vh;
     padding-right: 1vh;
     padding-bottom: 1vh;
     text-decoration: none;
-    font-size: 110%;
+    font-size: 1.2vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -155,10 +153,6 @@ section {
 
 .topnav a.leftsplit {
     float: left;
-    color: #A890FE;
-    font-size: 250%;
-    font-weight: 200;
-    filter: #A890FE;
 }
 
 .underline-hover {
@@ -209,34 +203,13 @@ section {
 }
 
 h1 {
-    /* background-image: linear-gradient(45deg, #ffc0c0,  #A890FE);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent; */
     color:#ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 700%;
+    font-size: 7.2vw;
     text-align: center;
     margin-bottom: -3%;
     padding-top:20vh;
-}
-
-h2 {
-    /* background-image: linear-gradient(45deg, #EA8D8D,  #A890FE);    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent; */
-    color:#ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 400%;
-    text-align: center;
-    padding:10px;
-    margin-bottom: -4%;
 }
 
 .introtext p {
@@ -247,51 +220,41 @@ h2 {
 /* About Page */
 
 h5 {
-    padding-top:3%;
+    padding-top:2%;
     color:  #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 550%;
+    font-size: 5.5vw;
     text-align: center; 
     margin:0;
+    margin-bottom: 5vh;
     /* margin-left:25%; */
 }
 
 .background_text {
-    /* margin-left:20%;
-    margin-right:20%; */
     display: grid;
     align-items: center; 
     grid-template-columns: 45% 45%;
     column-gap: 1px;
-    margin-top: 2.5%;
     margin-left: 18%;
 }
 
 .big {
     text-align: left;
-    font-size: 200%;
+    font-size: 1.7vw;
     font-weight: 300;
-    /* margin-left: 10%; */
 }
 
 .smol {
     text-align: left;
-    font-size: 150%;
+    font-size: 1.2vw;
     font-weight: 100;
-}
-.background_text p {
-    /* text-align: left;
-    font-size: 100%; */
-    /* margin-left: 10%; */
 }
 
 .background_text img {
-    /* height:2000px; */
-    /* height:auto; */
-    width: 40%;
     padding-left: 10%;
     opacity: .8;
+    width: 40%;
 }
 
 /* Projects page */
@@ -301,16 +264,12 @@ h5 {
     margin-left: 10.5%;
 }
 
-.projects p{
-    font-size: 150%;
-}
-
 h3 {
-    padding-top:3%;
+    padding-top:2%;
     color:  #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 550%;
+    font-size: 5.5vw;
     text-align: center; 
     margin:0;
 }
@@ -335,12 +294,8 @@ img {
     float: left;
 }
 
-.project1 img {
-    /* margin-left: 25%; */
-}
-
 .project1 p {
-    font-size: 150%;
+    font-size: 1.2vw;
     font-weight: 200;
     margin-left: -10%;
 }
@@ -362,7 +317,7 @@ h4 {
     color:  #eeeeee;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 550%;
+    font-size:5.5vw;
     text-align: center; 
     margin:0;
 }
@@ -401,7 +356,7 @@ h4 {
     color:transparent;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 150%;
+    font-size: 1vw;
     text-align: center;
     padding:5px;
     justify-content: center;
@@ -442,7 +397,7 @@ h4 {
     color:#ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 100%;
+    font-size: 1vw;
     text-align: left;
     padding:5px;
 }
@@ -454,7 +409,7 @@ button[type="submit"] {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 1vw;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -496,7 +451,7 @@ button[type="submit"]:hover {
     text-align: center;
     padding: 30px;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 1vw;
 }
 
 .sbutton {
