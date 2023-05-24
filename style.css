@@ -254,7 +254,8 @@ h5 {
     /* padding-left: 10%; */
     opacity: .8;
     width: 40%;
-    /* background-color: gray; */
+    /* background-color: rgba(53, 53, 53, 0.564); */
+    border-radius: 1%;
 }
 
 /* Projects page */
@@ -290,6 +291,7 @@ h3 {
 
 .image2 img {
     opacity: 0.6;
+    border-radius: 1%;
 }
    
 img {
