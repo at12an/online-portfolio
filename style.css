@@ -228,7 +228,6 @@ h5 {
     text-align: center; 
     margin:0;
     margin-bottom: 5vh;
-    /* margin-left:25%; */
 }
 
 .background_text {
@@ -252,9 +251,10 @@ h5 {
 }
 
 .background_text img {
-    padding-left: 10%;
+    /* padding-left: 10%; */
     opacity: .8;
     width: 40%;
+    /* background-color: gray; */
 }
 
 /* Projects page */
@@ -286,6 +286,10 @@ h3 {
 .projects img {
     max-width: 40vw;
     max-height:40vh;
+}
+
+.image2 img {
+    opacity: 0.6;
 }
    
 img {
