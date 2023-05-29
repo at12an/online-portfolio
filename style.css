@@ -178,7 +178,7 @@ section {
     -webkit-transition-property: right;
     transition-property: right;
     -webkit-transition-duration: 0.3s;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
@@ -401,7 +401,7 @@ h4 {
     font-weight: 700;
     font-size: 6vh;
     text-align: center; 
-    transition: all .9s ease;
+    transition: all .4s ease;
 }
 
 .skills p:hover{
@@ -412,7 +412,7 @@ h4 {
     line-height: 14vh;
     font-size: 7vh;
     /* transition-duration: 0.3s; */
-    transition: all .9s ease;
+    transition: all .4s ease;
 }
 
 .hide {
@@ -420,17 +420,17 @@ h4 {
     color:transparent;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 0.9vw;
     text-align: center;
     padding:5px;
     justify-content: center;
     width:10vh;
-    transition: all .9s ease;
+    transition: all .4s ease;
 }
 
 .skills p:hover + .hide {
     color: white;
-    transition: all .9s ease;
+    transition: all .4s ease;
 }
 
 
