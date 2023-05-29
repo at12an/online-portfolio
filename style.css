@@ -7,6 +7,7 @@ body, html {
     overflow-x:hidden;
     /* background-color: #242424; */
     background: linear-gradient(to right, rgb(22, 22, 22), rgb(51, 51, 51));
+    scroll-behavior: smooth;
 }
 
 html {
@@ -20,6 +21,7 @@ html {
 }
 
 .wrapper {
+    scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100%;
@@ -299,7 +301,19 @@ h5 {
 
 .projects {
     top: 100vh;
-    margin-left: 10.5%;
+    /* margin-left: 15vw; */
+}
+
+h6 {
+    /* all:unset; */
+    padding-top:2.2%;
+    color:  #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    text-align: center; 
+    margin:0;
+    margin-left: 0;
 }
 
 h3 {
@@ -318,12 +332,13 @@ h3 {
     grid-template-columns: 45% 45%;
     column-gap: 1px;
     margin-right: 10%;
+    margin-left: 15vw;
     /* margin-left: 18%; */
 }
 
 .projects img {
-    max-width: 40vw;
-    max-height:40vh;
+    max-width: 30vw;
+    max-height:30vh;
 }
 
 .image2 img {
@@ -337,8 +352,10 @@ img {
     float: left;
 }
 
-.project1 p {
+.text ul li, .text2 ul li {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2vw;
+    color: white;
     font-weight: 200;
     margin-left: -10%;
     padding-right: 1vw;
@@ -351,7 +368,8 @@ img {
 }
 
 .text2 p {
-    margin-left: 20%; 
+    /* margin-left: 20%;  */
+    /* margin-left: 15vw; */
 }
 
 /* Skills page */
@@ -377,22 +395,24 @@ h4 {
     color:  #ffffff;
     border-radius: 25%;
     background: #3e3e3e;
-    width: 13vh;
-    height: 13vh;
-    line-height: 15vh;
+    width: 10vh;
+    height: 10vh;
+    line-height: 11vh;
     font-weight: 700;
-    font-size: 8vh;
+    font-size: 6vh;
     text-align: center; 
+    transition: all .9s ease;
 }
 
 .skills p:hover{
     color:  #ffffff;
     background: rgb(60, 59, 59);
-    width: 14vh;
-    height: 14vh;
-    line-height: 16vh;
-    font-size: 9vh;
-    transition-duration: 0.3s;
+    width: 12vh;
+    height: 12vh;
+    line-height: 14vh;
+    font-size: 7vh;
+    /* transition-duration: 0.3s; */
+    transition: all .9s ease;
 }
 
 .hide {
@@ -404,11 +424,13 @@ h4 {
     text-align: center;
     padding:5px;
     justify-content: center;
-    width:13vh;
+    width:10vh;
+    transition: all .9s ease;
 }
 
 .skills p:hover + .hide {
     color: white;
+    transition: all .9s ease;
 }
 
 
@@ -416,7 +438,7 @@ h4 {
     margin-top: 0%;
     align-items: center;
     display: grid;
-    grid-template-columns:repeat(4,1px);
+    grid-template-columns:repeat(5,1px);
     grid-auto-flow: row; 
     justify-content: space-evenly;
     position: relative;
