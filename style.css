@@ -303,6 +303,13 @@ h5 {
 .p1github, .googleplay {
     color:white;
     font-size: 1.5vw;
+    transition: all .2s ease;
+}
+
+.p1github:hover, .googleplay:hover {
+    color:white;
+    font-size: 2vw;
+    transition: all .2s ease;
 }
 
 h6 {
