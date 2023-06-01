@@ -300,6 +300,11 @@ h5 {
     top: 100vh;
 }
 
+.p1github, .googleplay {
+    color:white;
+    font-size: 1.5vw;
+}
+
 h6 {
     padding-top:2.2%;
     color:  #ffffff;
