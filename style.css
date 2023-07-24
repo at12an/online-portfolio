@@ -45,28 +45,22 @@ section {
 }
 
 .page1 {
-    /* background: linear-gradient( #a47c7c, #66589a); */
-    /* background-color: #080808; */
     box-sizing: border-box;
     scroll-snap-align: start;
     
 }
 
 .page2 {
-    /* background: linear-gradient(#66589a, #734848); */
-    /* background-color: #080808; */
     box-sizing: border-box;
     scroll-snap-align: start;
 }
 
 .page3 {
-    /* background: linear-gradient(#734848, #1c7c74 ); */
     box-sizing: border-box;
     scroll-snap-align: start;
 }
 
 .page4 {
-    /* background: linear-gradient(#1c7c74,#9d8937); */
     box-sizing: border-box;
     scroll-snap-align: start;
 }
@@ -77,12 +71,12 @@ section {
 }
 
 .navbar2 {
-  width: 10%; /* 0 width - change this with JavaScript */
-  position: absolute; /* Stay in place */
-  top: 30%; /* Stay at the top */
-  background-color: transparent; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  width: 10%;
+  position: absolute; 
+  top: 30%;
+  background-color: transparent; 
+  overflow-x: hidden; 
+  /* padding-top: 60px;  */
   transition: 0.5s;
 }
 
