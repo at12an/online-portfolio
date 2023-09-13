@@ -340,11 +340,18 @@ h3 {
 .projects img {
     max-width: 30vw;
     max-height:30vh;
+    
 }
 
 .image2 img {
     opacity: 0.6;
     border-radius: 1%;
+    transition: transform 0.3s;
+}
+
+.image2 img:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
 }
    
 img {
