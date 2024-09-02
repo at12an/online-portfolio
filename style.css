@@ -105,6 +105,11 @@ section {
     color: white;
 }
   
+
+.gmail {
+    background: red;
+    color: white;
+}
 .linkedin {
     background: #007bb5;
     color: white;
@@ -292,6 +297,8 @@ h5 {
 
 #senor {
     margin-top: 20px;
+    max-width: 30vw;
+    max-height:30vh;
 }
 
 .projects {
